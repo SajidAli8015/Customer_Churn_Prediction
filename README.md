@@ -167,9 +167,6 @@ Model files:
 **Sajid Ali**  
 Data Scientist | Machine Learning | AI for Telecom  
 📧 alisajid@8030@gmail.com 
-
-
-
 ---
 
 ## 📎 License
