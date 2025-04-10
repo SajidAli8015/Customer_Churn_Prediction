@@ -22,7 +22,7 @@ This project focuses on predicting customer churn for a telecom company using ma
 - ⚖️ Addressed class imbalance using SMOTE and `scale_pos_weight`
 - ✅ Model Evaluation with Precision, Recall, AUC, and F1 Score
 - 🎯 Threshold optimization to improve recall without hurting precision
-- 🌐 Model Deployment using Flask API + Web UI + Docker container
+- 🌐 Model Deployment using Flask API + Streamlit UI + Docker container
 
 ---
 
@@ -57,9 +57,9 @@ Churn_Prediction/
 │   ├── final_logreg_model.pkl
 │   ├── final_rf_model.pkl
 │   ├── final_lightgbm_model.pkl
-│   ├── app.py                  # Flask app 
-│   ├── templates/
-│   │   └── index.html          # Frontend HTML UI 
+│   ├── shap_selected_features.pkl
+│   ├── app.py                  # Flask app (API)
+│   ├── ui_streamlit.py         # Streamlit frontend (UI)
 │   ├── Dockerfile              # Docker setup
 │
 ├── src/                        # (To add any helper scripts later)
@@ -162,6 +162,7 @@ Model files:
 **Sajid Ali**  
 Data Scientist | Machine Learning | AI for Telecom  
 📧 alisajid@8030@gmail.com 
+
 
 
 ---
