@@ -1,0 +1,36 @@
+# 1. Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# 2. Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# 3. Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 4. OS-generated junk
+.DS_Store
+Thumbs.db
+
+# 5. Ignore environment variables or secrets (if used)
+.env
+*.secret
+
+# 6. Optional: Ignore large datasets (uncomment if needed)
+# data/raw/*
+# *.csv
+
+# 7. Log files and temporary files
+*.log
+*.tmp
+
+# 8. VSCode or PyCharm settings (optional)
+.vscode/
+.idea/
+
+# 9. Ignore __MACOSX folder sometimes created in zips
+__MACOSX/

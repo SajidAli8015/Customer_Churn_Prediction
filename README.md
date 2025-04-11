@@ -64,7 +64,8 @@ Churn_Prediction/
 │
 ├── src/                        # (To add any helper scripts later)
 │
-├── requirements.txt
+├── requirements.txt          # Minimal dependencies for running app
+├── requirements-dev.txt      # Full dev setup (SHAP, Jupyter, etc.)
 ├── README.md
 ```
 
@@ -134,7 +135,7 @@ All models evaluated using F1, Recall, Precision, AUC.
 The final LightGBM model will be deployed using:
 
 - ✅ **Flask API** to serve model predictions
-- ✅ **Frontend UI** (HTML) to input customer features and receive predictions
+- ✅ **Frontend UI** (HTML or Streamlit) to input customer features and receive predictions
 - ✅ **Docker** for containerized deployment (portable & consistent)
 - ☁️ Hosting options: Render / Heroku / Railway / Localhost
 
@@ -142,6 +143,10 @@ Model files:
 - `final_lightgbm_model.pkl`
 - `final_rf_model.pkl`
 - `final_logreg_model.pkl`
+
+**Requirements Files:**
+- `requirements.txt`: Minimal set required to run the app
+- `requirements-dev.txt`: Full environment with SHAP, Jupyter, etc. (for local development or debugging)
 
 ---
 
